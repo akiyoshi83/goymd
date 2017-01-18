@@ -21,6 +21,7 @@ var data = []struct {
 	{g: "Jan _2 15:04:05.000", y: "%b %e %H:%M:%S.%3N"},
 	{g: "Jan _2 15:04:05.000000", y: "%b %e %H:%M:%S.%6N"},
 	{g: "Jan _2 15:04:05.000000000", y: "%b %e %H:%M:%S.%N"},
+	{g: "2006/01/02 15:04:05 MST", y: "%Y/%m/%d %H:%M:%S %Z"},
 }
 
 func TestYmdStyle(t *testing.T) {
